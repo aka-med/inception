@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Mohammed Akarkaou — Resume (C / C++ / Systems / Docker / Networking)" />
+  <title>Mohammed Akarkaou — Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <main id="content" class="card">
+    <header class="top">
+      <div>
+        <h1>Mohammed Akarkaou</h1>
+        <p class="tagline">Junior Software Engineer • C / C++ / Linux-POSIX • Docker / Networking</p>
+        <p class="meta">
+          Morocco • <span class="muted">SALE</span> •
+          <a href="mailto:[Email]">makarkao@student.1337.ma</a> •
+          <a href="tel:[Phone]">0600006600</a>
+        </p>
+      </div>
+
+      <div class="links">
+        <a class="btn" href="https://github.com/makarkao" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/mohammed-akarkaou" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </header>
+
+    <section aria-labelledby="summary">
+      <h2 id="summary">Summary</h2>
+      <p>
+        Junior software engineer focused on C/C++ and Linux/POSIX fundamentals. Built multiple system-level projects
+        (shell, pipelines, concurrency) plus DevOps-oriented container infrastructure and networking exercises
+        through the 42/1337 curriculum. Interested in backend/systems/DevOps roles.
+      </p>
+    </section>
+
+    <section aria-labelledby="skills">
+      <h2 id="skills">Technical Skills</h2>
+
+      <div class="grid-2">
+        <div class="box">
+          <h3>Core</h3>
+          <ul>
+            <li><strong>Language:</strong> C/C++</li>
+            <li><strong>Systems:</strong> Linux/POSIX, processes &amp; pipes, file descriptors, signals</li>
+            <li><strong>Memory:</strong> allocations, ownership, leak prevention</li>
+            <li><strong>Tooling:</strong> Git, Make, shell scripting</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>Infra &amp; Networking</h3>
+          <ul>
+            <li><strong>Concurrency:</strong> threads, synchronization (mutexes; semaphores where applicable)</li>
+            <li><strong>DevOps/Infra:</strong> Docker, Docker Compose, networks, volumes</li>
+            <li><strong>Web stack:</strong> Nginx, WordPress, MariaDB (Inception)</li>
+            <li><strong>Networking:</strong> IP addressing, CIDR/subnetting, routing basics</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="projects">
+      <h2 id="projects">Projects</h2>
+
+      <div class="projects">
+        <article class="project">
+          <div class="project-head">
+            <h3>Inception (42/1337) — Docker-based infrastructure</h3>
+            <span class="pill">Docker • Compose • Nginx • WordPress • MariaDB</span>
+          </div>
+          <ul>
+            <li>Built a multi-service infrastructure with Docker Compose (reverse proxy + app + database) using custom images.</li>
+            <li>Automated service initialization with entrypoint scripts, persistent volumes, and isolated networks.</li>
+            <li>Implemented bonus services (e.g., caching/admin/ftp/monitoring depending on stack) and documented lifecycle tasks.</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Cub3D (42/1337) — Raycasting 3D engine in C (MiniLibX)</h3>
+            <span class="pill">C • Graphics • Raycasting</span>
+          </div>
+          <ul>
+            <li>Implemented a raycasting renderer for a Wolfenstein-style first-person maze.</li>
+            <li>Parsed map/config input, validated constraints, and handled runtime events (movement/rotation/render loop).</li>
+            <li>Focused on correctness (collision/geometry) and performance (tight per-frame loop, minimal allocations).</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>NetPractice (42/1337) — Networking basics &amp; subnetting</h3>
+            <span class="pill">Subnetting • CIDR • Routing</span>
+          </div>
+          <ul>
+            <li>Solved subnetting/routing exercises: network/broadcast/host ranges, masks/CIDR, and connectivity fixes.</li>
+            <li>Built a repeatable workflow for quickly diagnosing addressing + gateway + routing-table mistakes.</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Public GitHub Projects (C)</h3>
+            <span class="pill">C • POSIX • Algorithms</span>
+          </div>
+
+          <div class="mini-grid">
+            <div class="mini">
+              <h4>Minishell</h4>
+              <p>Mini Unix shell with parsing + execution, builtins, pipelines/redirections, robust error handling.</p>
+              <a href="https://github.com/makarkao/minishell" target="_blank" rel="noopener">Repository →</a>
+            </div>
+
+            <div class="mini">
+              <h4>Philosophers</h4>
+              <p>Dining Philosophers concurrency project: safe synchronization and timing constraints.</p>
+              <a href="https://github.com/makarkao/philosopher" target="_blank" rel="noopener">Repository →</a>
+            </div>
+
+            <div class="mini">
+              <h4>Pipex</h4>
+              <p>Unix-like piping: processes, pipes, redirections; bonus heredoc where applicable.</p>
+              <a href="https://github.com/makarkao/pipex" target="_blank" rel="noopener">Repository →</a>
+            </div>
+
+            <div class="mini">
+              <h4>Push_swap</h4>
+              <p>Constrained stack sorting strategies + input validation; checker bonus where applicable.</p>
+              <a href="https://github.com/makarkao/push_swap" target="_blank" rel="noopener">Repository →</a>
+            </div>
+
+            <div class="mini">
+              <h4>Libft • ft_printf • get_next_line</h4>
+              <p>Reusable C utilities, formatted output, buffered line reading (memory-safe).</p>
+              <p class="small">
+                <a href="https://github.com/makarkao/Libft" target="_blank" rel="noopener">Libft</a> •
+                <a href="https://github.com/makarkao/ft_printf" target="_blank" rel="noopener">ft_printf</a> •
+                <a href="https://github.com/makarkao/get-next-line" target="_blank" rel="noopener">get_next_line</a>
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="education">
+      <h2 id="education">Education</h2>
+      <div class="box">
+        <h3>1337 Coding School (42 Network) — Morocco</h3>
+        <p class="muted">2024 – Present</p>
+        <ul>
+          <li>Core curriculum in C/C++, Unix programming, algorithms, networking basics, and containerized system administration.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="additional">
+      <h2 id="additional">Additional</h2>
+      <ul>
+        <li><strong>Languages:</strong>Arabic / French / English</li>
+        <li><strong>Interests:</strong> systems programming, backend engineering, DevOps, networking</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <p>
+        Email: <a href="mailto:[Email]">makarkao@student.1337.ma</a><br />
+        Phone: <a href="tel:[Phone]">0600006600</a><br />
+        GitHub: <a href="https://github.com/makarkao" target="_blank" rel="noopener">github.com/makarkao</a><br />
+        LinkedIn: <a href="https://www.linkedin.com/in/mohammed-akarkaou" target="_blank" rel="noopener">in/mohammed-akarkaou</a>
+      </p>
+    </section>
+
+    <footer class="footer">
+      <p class="small muted">© <span id="year"></span> Mohammed Akarkaou • Built as a simple static resume page.</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
