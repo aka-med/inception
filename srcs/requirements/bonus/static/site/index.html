@@ -3,186 +3,93 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Mohammed Akarkaou — Resume (C / C++ / Systems / Docker / Networking)" />
+  <meta name="description" content="Mohammed Akarkaou — Resume (Backend / Systems / DevOps)" />
   <title>Mohammed Akarkaou — Resume</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <a class="skip-link" href="#content">Skip to content</a>
-
-  <main id="content" class="card">
+  <main class="card">
     <header class="top">
       <div>
         <h1>Mohammed Akarkaou</h1>
-        <p class="tagline">Junior Software Engineer • C / C++ / Linux-POSIX • Docker / Networking</p>
+        <p class="tagline">Software Engineering Student • Backend • Systems • DevOps</p>
         <p class="meta">
-          Morocco • <span class="muted">SALE</span> •
-          <a href="mailto:[Email]">makarkao@student.1337.ma</a> •
-          <a href="tel:[Phone]">0600006600</a>
+          <a href="tel:+212663231042">+212 663231042</a> •
+          <a href="mailto:mohamdakerk@gmail.com">mohamdakerk@gmail.com</a>
         </p>
       </div>
-
       <div class="links">
-        <a class="btn" href="https://github.com/makarkao" target="_blank" rel="noopener">GitHub</a>
-        <a class="btn" href="https://www.linkedin.com/in/mohammed-akarkaou" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/aka-med" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/akao-med" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </header>
 
-    <section aria-labelledby="summary">
-      <h2 id="summary">Summary</h2>
-      <p>
-        Junior software engineer focused on C/C++ and Linux/POSIX fundamentals. Built multiple system-level projects
-        (shell, pipelines, concurrency) plus DevOps-oriented container infrastructure and networking exercises
-        through the 42/1337 curriculum. Interested in backend/systems/DevOps roles.
-      </p>
-    </section>
+    <h2>Summary</h2>
+    <p>
+      Software engineering student at 1337 Coding School with a strong foundation in systems programming. Building
+      backend expertise with Java (Spring Boot) and JavaScript (Express), with a focus on scalable backend systems,
+      real-time web applications, and containerized infrastructure. Curious about what makes systems fast and reliable,
+      and eager to dig into performance optimization while shipping production-ready work.
+    </p>
 
-    <section aria-labelledby="skills">
-      <h2 id="skills">Technical Skills</h2>
+    <h2>Education</h2>
+    <div class="box">
+      <div class="head"><h3>1337 Coding School — Mohammed VI Polytechnic University (UM6P)</h3><span class="muted">2024 – Present</span></div>
+      <p class="muted">Software Engineering and Digital Technologies.</p>
+    </div>
 
-      <div class="grid-2">
-        <div class="box">
-          <h3>Core</h3>
-          <ul>
-            <li><strong>Language:</strong> C/C++</li>
-            <li><strong>Systems:</strong> Linux/POSIX, processes &amp; pipes, file descriptors, signals</li>
-            <li><strong>Memory:</strong> allocations, ownership, leak prevention</li>
-            <li><strong>Tooling:</strong> Git, Make, shell scripting</li>
-          </ul>
-        </div>
-
-        <div class="box">
-          <h3>Infra &amp; Networking</h3>
-          <ul>
-            <li><strong>Concurrency:</strong> threads, synchronization (mutexes; semaphores where applicable)</li>
-            <li><strong>DevOps/Infra:</strong> Docker, Docker Compose, networks, volumes</li>
-            <li><strong>Web stack:</strong> Nginx, WordPress, MariaDB (Inception)</li>
-            <li><strong>Networking:</strong> IP addressing, CIDR/subnetting, routing basics</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section aria-labelledby="projects">
-      <h2 id="projects">Projects</h2>
-
-      <div class="projects">
-        <article class="project">
-          <div class="project-head">
-            <h3>Inception (42/1337) — Docker-based infrastructure</h3>
-            <span class="pill">Docker • Compose • Nginx • WordPress • MariaDB</span>
-          </div>
-          <ul>
-            <li>Built a multi-service infrastructure with Docker Compose (reverse proxy + app + database) using custom images.</li>
-            <li>Automated service initialization with entrypoint scripts, persistent volumes, and isolated networks.</li>
-            <li>Implemented bonus services (e.g., caching/admin/ftp/monitoring depending on stack) and documented lifecycle tasks.</li>
-          </ul>
-        </article>
-
-        <article class="project">
-          <div class="project-head">
-            <h3>Cub3D (42/1337) — Raycasting 3D engine in C (MiniLibX)</h3>
-            <span class="pill">C • Graphics • Raycasting</span>
-          </div>
-          <ul>
-            <li>Implemented a raycasting renderer for a Wolfenstein-style first-person maze.</li>
-            <li>Parsed map/config input, validated constraints, and handled runtime events (movement/rotation/render loop).</li>
-            <li>Focused on correctness (collision/geometry) and performance (tight per-frame loop, minimal allocations).</li>
-          </ul>
-        </article>
-
-        <article class="project">
-          <div class="project-head">
-            <h3>NetPractice (42/1337) — Networking basics &amp; subnetting</h3>
-            <span class="pill">Subnetting • CIDR • Routing</span>
-          </div>
-          <ul>
-            <li>Solved subnetting/routing exercises: network/broadcast/host ranges, masks/CIDR, and connectivity fixes.</li>
-            <li>Built a repeatable workflow for quickly diagnosing addressing + gateway + routing-table mistakes.</li>
-          </ul>
-        </article>
-
-        <article class="project">
-          <div class="project-head">
-            <h3>Public GitHub Projects (C)</h3>
-            <span class="pill">C • POSIX • Algorithms</span>
-          </div>
-
-          <div class="mini-grid">
-            <div class="mini">
-              <h4>Minishell</h4>
-              <p>Mini Unix shell with parsing + execution, builtins, pipelines/redirections, robust error handling.</p>
-              <a href="https://github.com/makarkao/minishell" target="_blank" rel="noopener">Repository →</a>
-            </div>
-
-            <div class="mini">
-              <h4>Philosophers</h4>
-              <p>Dining Philosophers concurrency project: safe synchronization and timing constraints.</p>
-              <a href="https://github.com/makarkao/philosopher" target="_blank" rel="noopener">Repository →</a>
-            </div>
-
-            <div class="mini">
-              <h4>Pipex</h4>
-              <p>Unix-like piping: processes, pipes, redirections; bonus heredoc where applicable.</p>
-              <a href="https://github.com/makarkao/pipex" target="_blank" rel="noopener">Repository →</a>
-            </div>
-
-            <div class="mini">
-              <h4>Push_swap</h4>
-              <p>Constrained stack sorting strategies + input validation; checker bonus where applicable.</p>
-              <a href="https://github.com/makarkao/push_swap" target="_blank" rel="noopener">Repository →</a>
-            </div>
-
-            <div class="mini">
-              <h4>Libft • ft_printf • get_next_line</h4>
-              <p>Reusable C utilities, formatted output, buffered line reading (memory-safe).</p>
-              <p class="small">
-                <a href="https://github.com/makarkao/Libft" target="_blank" rel="noopener">Libft</a> •
-                <a href="https://github.com/makarkao/ft_printf" target="_blank" rel="noopener">ft_printf</a> •
-                <a href="https://github.com/makarkao/get-next-line" target="_blank" rel="noopener">get_next_line</a>
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section aria-labelledby="education">
-      <h2 id="education">Education</h2>
-      <div class="box">
-        <h3>1337 Coding School (42 Network) — Morocco</h3>
-        <p class="muted">2024 – Present</p>
+    <h2>Technical Projects</h2>
+    <div class="projects">
+      <article class="box">
+        <div class="head"><h3>RedDrop (ft_transcendence) <span class="muted">— ongoing</span></h3>
+          <span class="pill">Java 21 • Spring Boot • Spring Security • JWT • PostgreSQL • Flyway • React • TypeScript • Docker • Nginx</span></div>
         <ul>
-          <li>Core curriculum in C/C++, Unix programming, algorithms, networking basics, and containerized system administration.</li>
+          <li>Building a blood-donation platform for Morocco in a team of 5, where donors find centers, check their eligibility and book appointments, and staff validate donations through role-based dashboards.</li>
+          <li>Own the Spring Security filter chain: a custom OncePerRequestFilter reads the JWT from an HttpOnly cookie on every request and checks its signature and scope. It also checks the user's current role and token version in the database, so logout, a password change or a role change ends the session instantly on every device.</li>
+          <li>Configured stateless sessions, an ordered deny-by-default set of URL rules, method-level @PreAuthorize checks, a CORS allow-list with credentials, and JSON 401/403 responses in the API's single error format instead of HTML redirects.</li>
+          <li>Runs as a Docker Compose stack behind an Nginx TLS reverse proxy, with a PostgreSQL schema managed by Flyway.</li>
         </ul>
-      </div>
-    </section>
+      </article>
+      <article class="box">
+        <div class="head"><h3>Inception — Docker Web Infrastructure</h3>
+          <span class="pill">Docker • Compose • Nginx • WordPress • PHP-FPM • MariaDB • Redis • Debian</span></div>
+        <ul>
+          <li>Designed and built a 7-service web stack: Nginx, WordPress with PHP-FPM, MariaDB, Redis, Adminer, an FTP server and cAdvisor. Every image is written from scratch on Debian Bookworm, with no prebuilt service images, and the whole stack is orchestrated with Docker Compose and run through a Makefile.</li>
+          <li>Made Nginx the only HTTPS entry point to the web stack: TLS 1.2/1.3 with a certificate generated at build time, forwarding PHP requests over FastCGI to WordPress and Adminer on an isolated internal network that the containers reach by service name.</li>
+          <li>Kept all credentials out of images and environment variables with Docker secrets, read from files at startup. Data persists on host-backed volumes, and each service runs in the foreground as the container's main process.</li>
+        </ul>
+      </article>
+      <article class="box">
+        <div class="head"><h3>ft_irc — IRC Server</h3><span class="pill">C++98 • POSIX Sockets • poll() • Makefile</span></div>
+        <ul>
+          <li>Built an IRC server from scratch in a team of 3. It works with standard clients such as irssi and covers registration, channels, operator modes, private messaging and a calculator bot.</li>
+          <li>Owned the networking core: set up the listening TCP socket (SO_REUSEADDR, non-blocking mode, bind/listen) and accepted new clients as non-blocking connections registered in a single poll() event loop.</li>
+          <li>Drove all client I/O through one loop with buffered reads and writes (POLLIN/POLLOUT), and cleaned up disconnects and socket errors (POLLHUP/POLLERR). Handled SIGINT/SIGQUIT for a graceful shutdown and ignored SIGPIPE so a dropped client can't crash the server.</li>
+        </ul>
+      </article>
+    </div>
 
-    <section aria-labelledby="additional">
-      <h2 id="additional">Additional</h2>
-      <ul>
-        <li><strong>Languages:</strong>Arabic / French / English</li>
-        <li><strong>Interests:</strong> systems programming, backend engineering, DevOps, networking</li>
-      </ul>
-    </section>
+    <h2>Technical Skills</h2>
+    <ul class="plain">
+      <li><strong>Languages:</strong> Java, JavaScript, TypeScript, Python, C, C++, Bash</li>
+      <li><strong>Backend:</strong> Spring Boot, Node.js, Express, RESTful APIs, JWT Authentication</li>
+      <li><strong>Databases:</strong> MySQL, PostgreSQL, MariaDB, SQLite, Prisma, Hibernate / JPA</li>
+      <li><strong>DevOps &amp; Infrastructure:</strong> Docker, Docker Compose, Nginx, Linux</li>
+      <li><strong>Frontend:</strong> React, Tailwind CSS, HTML5, CSS3</li>
+      <li><strong>Tools:</strong> Git, GitHub, Make</li>
+    </ul>
 
-    <section aria-labelledby="contact">
-      <h2 id="contact">Contact</h2>
-      <p>
-        Email: <a href="mailto:[Email]">makarkao@student.1337.ma</a><br />
-        Phone: <a href="tel:[Phone]">0600006600</a><br />
-        GitHub: <a href="https://github.com/makarkao" target="_blank" rel="noopener">github.com/makarkao</a><br />
-        LinkedIn: <a href="https://www.linkedin.com/in/mohammed-akarkaou" target="_blank" rel="noopener">in/mohammed-akarkaou</a>
-      </p>
-    </section>
+    <h2>Languages</h2>
+    <ul class="plain">
+      <li><strong>Arabic:</strong> Native</li>
+      <li><strong>French:</strong> Professional Working Proficiency</li>
+      <li><strong>English:</strong> Professional Working Proficiency</li>
+    </ul>
 
     <footer class="footer">
-      <p class="small muted">© <span id="year"></span> Mohammed Akarkaou • Built as a simple static resume page.</p>
+      <p class="small muted">© <span id="year"></span> Mohammed Akarkaou • Served from the Inception static-site container.</p>
     </footer>
   </main>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
